@@ -1,0 +1,55 @@
+/* 重置默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 设置全局字体和背景颜色 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* 头部样式 */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* 主要内容样式 */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    background-color: #fff;
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* 底部样式 */
+footer {
+    background-color: #edff9e;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
